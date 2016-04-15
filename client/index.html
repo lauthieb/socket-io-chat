@@ -6,11 +6,12 @@
     <body>
         <div id="users"></div>
         <div id="messages">
-            <div class="message" id="msgtpl">
+            <div class="message" id="msgtpl" style="display: none">
                 <img src="" alt="">
                 <div class="info">
-                    <p><strong></strong></p>
-                    <p></p>
+                    <p><strong>{{user.username}}</strong></p>
+                    <p>{{message}}</p>
+                    <span class="date">{{hours}}:{{minutes}}</span>
                 </div>
             </div>
         </div>
