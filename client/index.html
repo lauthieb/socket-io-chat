@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Chat in Node and Socket.io</title>
+    </head>
+    <body>
+        <div id="users"></div>
+        <div id="messages">
+            <div class="message" id="msgtpl">
+                <img src="" alt="">
+                <div class="info">
+                    <p><strong></strong></p>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+
+        <div id="login">
+            <form action="" id="loginform">
+                <h1>Welcome</h1>
+                <p>Chat in Node and Socket.io</p>
+                <input type="text" name="login" id="username" placeholder="Username">
+                <input type="mail" name="email" id="email" placeholder="E-mail">
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+
+        <form action="" id="form">
+            <input type="text" id="message" class="text">
+            <input type="submit" id="sens" value="Send your message !" class="submit">
+        </form>
+
+        <!-- Bower components -->
+        <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="bower_components/mustache.js/mustache.min.js"></script>
+        <script src="http://localhost:1337/socket.io/socket.io.js"></script>
+
+        <!-- Application scripts -->
+        <script src="js/cli.js"></script>
+    </body>
+</html>

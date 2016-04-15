@@ -1,0 +1,9 @@
+# IntelliJ project files
+.idea
+*.iml
+
+# Node dependencies
+server/node_modules
+
+# Bower dependencies
+client/bower_components
